@@ -50,14 +50,14 @@ Ejercicios resueltos de AED (2023)
 
   ### SECUENCIAS
   ```js
-  secuencia: secuencia de [tipo de dato]
-  ventana: [tipo de dato]
+  sec: secuencia de [tipo de dato]
+  ven: [tipo de dato]
 
-  Crear(secuencia)
-  Abrir(secuencia)
-  Cerrar(secuencia)
-  Avanzar(secuencia, ventana)
-  Grabar(secuencia, ventana)
+  Crear(sec)
+  Abrir(sec)
+  Cerrar(sec)
+  Avanzar(sec, ven)
+  Grabar(sec, ven)
   ```
   ### REGISTROS
   ```js
