@@ -93,3 +93,35 @@ con:= {[alfanumerico], [entero]}
   Cerrar(arch)
   Leer(arch, reg)
   ```
+## MEZCLA
+
+  ### CICLOS DE APAREO
+  #### INCLUYENTE
+  ```JS
+  Mientras (Clave1 <> HV) o (Clave2 <> HV) o ... (ClaveN <> HV) Hacer  
+    [proceso]
+  FinMientras
+  ```
+  ### EXCLUYENTE
+  ```JS
+  Mientras NFDA (arch1) y NFDA (arch2) Hacer
+    [proceso común]
+  FinMientras
+  Mientras NFDA (arch1) Hacer
+    [proceso arch1]       
+  FinMientras
+  Mientras NFDA (arch2) Hacer
+    [proceso arch2]  
+  FinMientras
+  ```
+  
+  
+## ESQUELETOS FRECUENTES
+
+### CORTE DE CONTROL
+  ```js
+    
+  ```
+### ACTUALIZACIÓN
+  ```js
+  ```
