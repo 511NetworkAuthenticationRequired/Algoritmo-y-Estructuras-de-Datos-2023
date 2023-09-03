@@ -47,7 +47,8 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   
   #### SUBACCIONES
-  ##### FUNCION // Retorna algo, ejemplo: cálculos matemáticos
+  ##### FUNCION
+  Retorna algo, ejemplo: cálculos matemáticos
   ```js
   Funcion Nombre ([Nombre del dato]: [Tipo de dato]): [Dato a devolver]
     [proceso]
@@ -96,7 +97,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ### MEZCLA
 
   #### CICLOS DE APAREO
-  Siendo HV el "High Value".
+  HV hace referencia a "High Value".
   ##### INCLUYENTE
   ```JS
   Mientras ([clave1] <> HV) o ([clave2] <> HV) o ... ([claveN] <> HV) Hacer  
