@@ -3,6 +3,22 @@ Ejercicios resueltos de AED (2023)
 
 # SINTAXIS
 
+## VARIABLES, CONSTANTES Y CONJUNTOS
+```js
+// VARIABLES
+var: entero
+var: alfanumerico
+// CONSTANTES
+cons: "hola mundo"
+cons: 0
+cons: 1
+// CONJUNTOS
+con:= {0, 1}
+con:= {"Si", "No"}
+```
+
+## GENERAL
+
   ### CONDICIONALES
   ```js
   Si (condición) Entonces
