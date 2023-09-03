@@ -71,3 +71,8 @@ Ejercicios resueltos de AED (2023)
 
   // Los campos y las claves van a compañadas de su tipo de dato (alfanumerico, numerico, booleano o conjunto) y de la cantidad, ejemplo: Clave: AN(2) --> "H1".
   ```
+  ### ARCHIVOS 
+  ```
+  arch: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
+  reg: [Nombre del registro]
+  ```
