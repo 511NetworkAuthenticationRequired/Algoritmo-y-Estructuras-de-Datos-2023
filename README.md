@@ -1,4 +1,4 @@
-# ALGORITMO Y ESTRUCTURAS DE DATOS 2023
+i# ALGORITMO Y ESTRUCTURAS DE DATOS 2023
 Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 
 ## SINTAXIS
@@ -108,6 +108,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   Mientras NFDA ([arch1]) y NFDA ([arch2]) Hacer
     [proceso común]
   FinMientras
+
   Mientras NFDA ([arch1]) Hacer
     [proceso arch1]       
   FinMientras
