@@ -13,19 +13,19 @@ Ejercicios resueltos de AED (2023)
   ```
   
   ### ITERACIONES
-    #### PRE-TEST
+  #### PRE-TEST
     ```
     Mientras (condición) Hacer
       [proceso]
     FinMientras
     ```
-    #### POST-TEST
+  #### POST-TEST
     ```
     Repetir
       [proceso]
     Hasta que (condición)
     ```
-    #### MANEJADO POR CONTADOR
+  ##### MANEJADO POR CONTADOR
     ```
     Para i:=x hasta y Hacer // "x" suele ser 1, "y" hace referencia al valor maximo de iteraciones
       [proceso]
@@ -33,13 +33,13 @@ Ejercicios resueltos de AED (2023)
     ```
   
   ### SUBACCIONES
-    #### FUNCION // Retorna algo, ejemplo: cálculos matemáticos
+  ##### FUNCION // Retorna algo, ejemplo: cálculos matemáticos
     ```
     Funcion Nombre ([Nombre del dato]: [Tipo de dato]): [Dato a devolver]
       [proceso]
     FinFuncion
     ```
-    #### PROCEDIMIENTO
+  ##### PROCEDIMIENTO
     ```
     Procedimiento Nombre ([parámetros]) Es
       [proceso]
