@@ -9,9 +9,9 @@ Ejercicios resueltos de AED (2023)
 var: entero
 var: alfanumerico
 // CONSTANTES
-cons: "hola mundo"
-cons: 0
-cons: 1
+cons:= "hola mundo"
+cons:= 0
+cons:= 1
 // CONJUNTOS
 con:= {0, 1}
 con:= {"Si", "No"}
