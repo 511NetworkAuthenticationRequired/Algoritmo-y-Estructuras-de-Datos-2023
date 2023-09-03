@@ -88,4 +88,8 @@ con:= {[alfanumerico], [entero]}
   ```js
   arch: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
   reg: [Nombre del registro]
+
+  Abrir(arch)
+  Cerrar(arch)
+  Leer(arch, reg)
   ```
