@@ -4,7 +4,7 @@ Ejercicios resueltos de AED (2023)
 # SINTAXIS
 
   ### CONDICIONALES
-  ```
+  ```js
   Si (condición) Entonces
     [proceso]
   Contrario/Sino
@@ -14,42 +14,42 @@ Ejercicios resueltos de AED (2023)
   
   ### ITERACIONES
   #### PRE-TEST
-    ```
-    Mientras (condición) Hacer
-      [proceso]
-    FinMientras
-    ```
+  ```js
+  Mientras (condición) Hacer
+   [proceso]
+  FinMientras
+  ```
   #### POST-TEST
-    ```
-    Repetir
-      [proceso]
-    Hasta que (condición)
-    ```
+  ```js
+  Repetir
+    [proceso]
+  Hasta que (condición)
+  ```
   ##### MANEJADO POR CONTADOR
-    ```
-    Para i:=x hasta y Hacer // "x" suele ser 1, "y" hace referencia al valor maximo de iteraciones
-      [proceso]
-    FinPara
-    ```
+  ```js
+  Para i:=x hasta y Hacer // "x" suele ser 1, "y" hace referencia al valor maximo de iteraciones
+    [proceso]
+  FinPara
+  ```
   
   ### SUBACCIONES
   ##### FUNCION // Retorna algo, ejemplo: cálculos matemáticos
-    ```
-    Funcion Nombre ([Nombre del dato]: [Tipo de dato]): [Dato a devolver]
-      [proceso]
-    FinFuncion
-    ```
+  ```js
+  Funcion Nombre ([Nombre del dato]: [Tipo de dato]): [Dato a devolver]
+    [proceso]
+  FinFuncion
+  ```
   ##### PROCEDIMIENTO
-    ```
-    Procedimiento Nombre ([parámetros]) Es
-      [proceso]
-    FinProcedimiento
-    ```
+  ```js
+  Procedimiento Nombre ([parámetros]) Es
+    [proceso]
+  FinProcedimiento
+  ```
   
 ## ESTRUCTURAS DE DATOS
 
   ### SECUENCIAS
-  ```
+  ```js
   secuencia: secuencia de [tipo de dato]
   ventana: [tipo de dato]
 
@@ -59,9 +59,8 @@ Ejercicios resueltos de AED (2023)
   Avanzar(secuencia, ventana)
   Grabar(secuencia, ventana)
   ```
-
   ### REGISTROS
-  ```
+  ```js
   reg = registro
     clave = registro
       [claves]
@@ -72,7 +71,7 @@ Ejercicios resueltos de AED (2023)
   // Los campos y las claves van a compañadas de su tipo de dato (alfanumerico, numerico, booleano o conjunto) y de la cantidad, ejemplo: Clave: AN(2) --> "H1".
   ```
   ### ARCHIVOS 
-  ```
+  ```js
   arch: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
   reg: [Nombre del registro]
   ```
