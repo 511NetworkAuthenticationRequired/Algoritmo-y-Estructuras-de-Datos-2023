@@ -6,13 +6,13 @@ Ejercicios resueltos de AED (2023)
 ## VARIABLES, CONSTANTES Y CONJUNTOS
 ```js
 // VARIABLES
-var: entero
-var: alfanumerico
+[Nombre de la variable]: entero
+[Nombre de la variable]: alfanumerico
 // CONSTANTES
-cons:= [alfanumerico]
-cons:= [entero]
+[Nombre de la constante]:= [alfanumerico]
+[Nombre de la constante]:= [entero]
 // CONJUNTOS
-con:= {[alfanumerico], [entero]}
+[Nombre del conjunto]:= {[alfanumerico], [entero]}
 ```
 
 ## GENERAL
@@ -64,19 +64,19 @@ con:= {[alfanumerico], [entero]}
 
   ### SECUENCIAS
   ```js
-  sec: secuencia de [tipo de dato]
-  ven: [tipo de dato]
+  [Nombre de la secuencia]: secuencia de [tipo de dato]
+  [Nombre de la ventana]: [tipo de dato]
 
-  Crear(sec)
-  Abrir(sec)
-  Cerrar(sec)
-  Avanzar(sec, ven)
-  Grabar(sec, ven)
+  Crear([Nombre de la secuencia])
+  Abrir([Nombre de la secuencia])
+  Cerrar([Nombre de la secuencia])
+  Avanzar([Nombre de la secuencia], [Nombre de la ventana])
+  Grabar([Nombre de la secuencia], [Nombre de la ventana])
   ```
   ### REGISTROS
   ```js
-  reg = registro
-    clave = registro
+  [Nombre del registro] = registro
+    [Nombre de la clave] = registro
       [claves]
     FinRegistro
     [campos]
@@ -86,31 +86,31 @@ con:= {[alfanumerico], [entero]}
   ```
   ### ARCHIVOS 
   ```js
-  arch: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
-  reg: [Nombre del registro]
+  [Nombre del archivo]: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
+  [Nombre del reg]: [Nombre del registro]
 
-  Abrir(arch)
-  Cerrar(arch)
-  Leer(arch, reg)
+  Abrir([Nombre del archivo])
+  Cerrar([Nombre del archivo])
+  Leer([Nombre del archivo], [Nombre del reg])
   ```
 ## MEZCLA
 
   ### CICLOS DE APAREO
   #### INCLUYENTE
   ```JS
-  Mientras (Clave1 <> HV) o (Clave2 <> HV) o ... (ClaveN <> HV) Hacer  
+  Mientras ([clave1] <> HV) o ([clave2] <> HV) o ... ([claveN] <> HV) Hacer  
     [proceso]
   FinMientras
   ```
   ### EXCLUYENTE
   ```JS
-  Mientras NFDA (arch1) y NFDA (arch2) Hacer
+  Mientras NFDA ([arch1]) y NFDA ([arch2]) Hacer
     [proceso común]
   FinMientras
-  Mientras NFDA (arch1) Hacer
+  Mientras NFDA ([arch1]) Hacer
     [proceso arch1]       
   FinMientras
-  Mientras NFDA (arch2) Hacer
+  Mientras NFDA ([arch2]) Hacer
     [proceso arch2]  
   FinMientras
   ```
