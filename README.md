@@ -1,5 +1,5 @@
-# Algoritmo-y-Estructuras-de-Datos-2023
-Ejercicios resueltos de AED (2023)
+# ALGORITMO Y ESTRUCTURAS DE DATOS 2023
+Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https://aed-frre.github.io)).
 
 # SINTAXIS
 
