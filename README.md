@@ -1,9 +1,9 @@
 # ALGORITMO Y ESTRUCTURAS DE DATOS 2023
-Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https://aed-frre.github.io)).
+Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 
-# SINTAXIS
+## SINTAXIS
 
-## VARIABLES, CONSTANTES Y CONJUNTOS
+### VARIABLES, CONSTANTES Y CONJUNTOS
 ```js
 // VARIABLES
 [Nombre de la variable]: entero
@@ -15,9 +15,9 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
 [Nombre del conjunto]:= {[alfanumerico], [entero]}
 ```
 
-## GENERAL
+### GENERAL
 
-  ### CONDICIONALES
+  #### CONDICIONALES
   ```js
   Si (condición) Entonces
     [proceso]
@@ -26,14 +26,14 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
   FinSi
   ```
   
-  ### ITERACIONES
-  #### PRE-TEST
+  #### ITERACIONES
+  ##### PRE-TEST
   ```js
   Mientras (condición) Hacer
    [proceso]
   FinMientras
   ```
-  #### POST-TEST
+  ##### POST-TEST
   ```js
   Repetir
     [proceso]
@@ -46,7 +46,7 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
   FinPara
   ```
   
-  ### SUBACCIONES
+  #### SUBACCIONES
   ##### FUNCION // Retorna algo, ejemplo: cálculos matemáticos
   ```js
   Funcion Nombre ([Nombre del dato]: [Tipo de dato]): [Dato a devolver]
@@ -60,9 +60,9 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
   FinProcedimiento
   ```
   
-## ESTRUCTURAS DE DATOS
+### ESTRUCTURAS DE DATOS
 
-  ### SECUENCIAS
+  #### SECUENCIAS
   ```js
   [Nombre de la secuencia]: secuencia de [tipo de dato]
   [Nombre de la ventana]: [tipo de dato]
@@ -73,7 +73,7 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
   Avanzar([Nombre de la secuencia], [Nombre de la ventana])
   Grabar([Nombre de la secuencia], [Nombre de la ventana])
   ```
-  ### REGISTROS
+  #### REGISTROS
   ```js
   [Nombre del registro] = registro
     [Nombre de la clave] = registro
@@ -84,7 +84,7 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
 
   // Los campos y las claves van a compañadas de su tipo de dato (alfanumerico, numerico, booleano o conjunto) y de la cantidad, ejemplo: Clave: AN(2) --> "H1".
   ```
-  ### ARCHIVOS 
+  #### ARCHIVOS 
   ```js
   [Nombre del archivo]: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
   [Nombre del reg]: [Nombre del registro]
@@ -93,16 +93,17 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
   Cerrar([Nombre del archivo])
   Leer([Nombre del archivo], [Nombre del reg])
   ```
-## MEZCLA
+### MEZCLA
 
-  ### CICLOS DE APAREO
-  #### INCLUYENTE
+  #### CICLOS DE APAREO
+  Siendo HV el "High Value".
+  ##### INCLUYENTE
   ```JS
   Mientras ([clave1] <> HV) o ([clave2] <> HV) o ... ([claveN] <> HV) Hacer  
     [proceso]
   FinMientras
   ```
-  ### EXCLUYENTE
+  #### EXCLUYENTE
   ```JS
   Mientras NFDA ([arch1]) y NFDA ([arch2]) Hacer
     [proceso común]
@@ -116,12 +117,12 @@ Ejercicios en: [Guía de Trabajos Prácticos]([https://pages.github.com/](https:
   ```
   
   
-## ESQUELETOS FRECUENTES
+### ESQUELETOS FRECUENTES
 
-### CORTE DE CONTROL
+#### CORTE DE CONTROL
   ```js
     
   ```
-### ACTUALIZACIÓN
+#### ACTUALIZACIÓN
   ```js
   ```
