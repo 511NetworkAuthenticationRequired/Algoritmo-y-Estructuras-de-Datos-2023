@@ -139,15 +139,14 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```ruby
 ACCION CDC ES
     AMBIENTE
-      // SUBACCIONES
       Procedimiento TratarCorte Es
-        Si ([clave] <> [resguardo]) Entonces
+        Si (registro3.clave <> resguardo3) Entonces
             Corte3() #De mayor jerarquía
          Contrario
-            Si ([clave] <> [resguardo2]) Entonces
+            Si (registro2.clave <> resguardo2) Entonces
               Corte2()
             Contrario
-              Si (clave <> [resguardo3]) Entonces
+              Si (registro1.clave <> resguardo1) Entonces
                 Corte1() #De menor importancia
               FinSi
             FinSi
@@ -162,7 +161,7 @@ ACCION CDC ES
       FinProcedimiento
     PROCESO
       Inicializar() #Subaccion que abre archivos e iguala los totalizarores y resguardos a 0
-      Mientras NFDA([archivo]) Hacer
+      Mientras NFDA(archivo) Hacer
         TratarCorte()
         TratarRegistro()
         LeerRegistro()
