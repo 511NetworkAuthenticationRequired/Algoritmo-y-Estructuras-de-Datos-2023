@@ -106,14 +106,14 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### EXCLUYENTE
   ```JS
-  Mientras NFDA ([arch1]) y NFDA ([arch2]) Hacer
+  Mientras NFDA ([archivo]) y NFDA ([archivo2]) Hacer
     [proceso común]
   FinMientras
 
-  Mientras NFDA ([arch1]) Hacer
+  Mientras NFDA ([archivo]) Hacer
     [proceso arch1]       
   FinMientras
-  Mientras NFDA ([arch2]) Hacer
+  Mientras NFDA ([archivo2]) Hacer
     [proceso arch2]  
   FinMientras
   ```
@@ -122,8 +122,39 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ### ESQUELETOS FRECUENTES
 
 #### CORTE DE CONTROL
-  ```js
-    
+  ```php
+ACCION CDC ES
+    AMBIENTE
+      // SUBACCIONES
+      Procedimiento TratarCorte Es
+        Si ([clave] <> [resguardo]) Entonces
+            Corte() // De mayor jerarquía
+         Contrario
+            Si ([clave] <> [resguardo2]) Entonces
+              Corte2()
+            Contrario
+              Si (clave <> [resguardo3]) Entonces
+                Corte3() // De menor importancia
+              FinSi
+            FinSi
+        FinSi
+      FinProcedimiento
+      Procedimiento CorteN Es // Generalización
+        CorteN-1() // Llamada al corte de menor nivel
+        EmitirTotalesN() // Emición de resultados de nivel
+        totalesn+1:= TotalesN+1 + TotalesN // Acumulación de totales al nivel superior
+        totalesn:= 0 // Reinicio de totales
+        resguardon:= claven // Resguardo de la clave nueva
+      FinProcedimiento
+    PROCESO
+      Inicializar() // Subaccion que abre archivos e iguala los totalizarores y resguardos a 0
+      Mientras NFDA([archivo]) Hacer
+        TratarCorte()
+        TratarRegistro()
+        LeerRegistro()
+      FinMientras
+      EmitirTotales()
+FINACCION
   ```
 #### ACTUALIZACIÓN
   ```js
