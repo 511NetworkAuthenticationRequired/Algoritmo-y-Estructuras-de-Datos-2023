@@ -122,7 +122,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ### ESQUELETOS FRECUENTES
 
 #### CORTE DE CONTROL
-  ```js
+  ```ruby
 ACCION CDC ES
     AMBIENTE
       // SUBACCIONES
