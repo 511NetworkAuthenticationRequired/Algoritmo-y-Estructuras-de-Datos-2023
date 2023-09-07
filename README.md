@@ -125,10 +125,10 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   FinMientras
 
   Mientras NFDA ([archivo]) Hacer
-    [proceso arch1]       
+    [proceso archivo]       
   FinMientras
   Mientras NFDA ([archivo2]) Hacer
-    [proceso arch2]  
+    [proceso archivo2]  
   FinMientras
   ```
   
