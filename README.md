@@ -140,7 +140,7 @@ ACCION CDC ES
         FinSi
       FinProcedimiento
       Procedimiento CorteN Es #Generalización
-        CorteN-1() #lamada al corte de menor nivel
+        CorteN-1() #LLamada al corte de menor nivel
         EmitirTotalesN() #Emición de resultados de nivel
         totalesn+1:= TotalesN+1 + TotalesN #Acumulación de totales al nivel superior
         totalesn:= 0 #Reinicio de totales
