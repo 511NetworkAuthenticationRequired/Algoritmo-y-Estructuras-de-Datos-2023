@@ -122,19 +122,19 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ### ESQUELETOS FRECUENTES
 
 #### CORTE DE CONTROL
-  ```php
+  ```js
 ACCION CDC ES
     AMBIENTE
       // SUBACCIONES
       Procedimiento TratarCorte Es
         Si ([clave] <> [resguardo]) Entonces
-            Corte() // De mayor jerarquía
+            Corte3() // De mayor jerarquía
          Contrario
             Si ([clave] <> [resguardo2]) Entonces
               Corte2()
             Contrario
               Si (clave <> [resguardo3]) Entonces
-                Corte3() // De menor importancia
+                Corte1() // De menor importancia
               FinSi
             FinSi
         FinSi
@@ -154,6 +154,9 @@ ACCION CDC ES
         LeerRegistro()
       FinMientras
       EmitirTotales()
+      Corte3()
+      EmitirTotales()
+      Finalizar() // Subaccion que cierra los archivos
 FINACCION
   ```
 #### ACTUALIZACIÓN
