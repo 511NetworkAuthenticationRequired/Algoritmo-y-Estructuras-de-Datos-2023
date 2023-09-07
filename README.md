@@ -128,26 +128,26 @@ ACCION CDC ES
       // SUBACCIONES
       Procedimiento TratarCorte Es
         Si ([clave] <> [resguardo]) Entonces
-            Corte3() // De mayor jerarquía
+            Corte3() #De mayor jerarquía
          Contrario
             Si ([clave] <> [resguardo2]) Entonces
               Corte2()
             Contrario
               Si (clave <> [resguardo3]) Entonces
-                Corte1() // De menor importancia
+                Corte1() #De menor importancia
               FinSi
             FinSi
         FinSi
       FinProcedimiento
-      Procedimiento CorteN Es // Generalización
-        CorteN-1() // Llamada al corte de menor nivel
-        EmitirTotalesN() // Emición de resultados de nivel
-        totalesn+1:= TotalesN+1 + TotalesN // Acumulación de totales al nivel superior
-        totalesn:= 0 // Reinicio de totales
-        resguardon:= claven // Resguardo de la clave nueva
+      Procedimiento CorteN Es #Generalización
+        CorteN-1() #lamada al corte de menor nivel
+        EmitirTotalesN() #Emición de resultados de nivel
+        totalesn+1:= TotalesN+1 + TotalesN #Acumulación de totales al nivel superior
+        totalesn:= 0 #Reinicio de totales
+        resguardon:= claven #Resguardo de la clave nueva
       FinProcedimiento
     PROCESO
-      Inicializar() // Subaccion que abre archivos e iguala los totalizarores y resguardos a 0
+      Inicializar() #Subaccion que abre archivos e iguala los totalizarores y resguardos a 0
       Mientras NFDA([archivo]) Hacer
         TratarCorte()
         TratarRegistro()
@@ -156,7 +156,7 @@ ACCION CDC ES
       EmitirTotales()
       Corte3()
       EmitirTotales()
-      Finalizar() // Subaccion que cierra los archivos
+      Finalizar() #Subaccion que cierra los archivos
 FINACCION
   ```
 #### ACTUALIZACIÓN
