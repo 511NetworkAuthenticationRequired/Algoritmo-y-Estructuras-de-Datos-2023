@@ -94,13 +94,27 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   Cerrar([Nombre del archivo])
   Leer([Nombre del archivo], [Nombre del reg])
   ```
+
+### CORTE DE CONTROL
+#### ESQUELETO
+  ```js
+  Inicializar()
+  Mientras NFDA([archivo]) Hacer
+    TratarCorte()
+    TratarRegistro()
+    LeerRegistro()
+  FinMientras
+  EmitirTotales()
+  Corte3()
+  EmitirTotales()
+  Finalizar()
+  ```
 ### MEZCLA
 
   #### CICLOS DE APAREO
-  HV hace referencia a "High Value".
   ##### INCLUYENTE
   ```JS
-  Mientras ([clave1] <> HV) o ([clave2] <> HV) o ... ([claveN] <> HV) Hacer  
+  Mientras ([clave1] <> HV) o ([clave2] <> HV) o ... ([claveN] <> HV) Hacer // HV hace referencia a "High Value".
     [proceso]
   FinMientras
   ```
