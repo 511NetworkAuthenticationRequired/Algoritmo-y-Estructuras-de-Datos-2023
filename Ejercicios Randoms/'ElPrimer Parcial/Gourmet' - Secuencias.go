@@ -1,3 +1,9 @@
+// CONSIGNA
+// Elgourmet.com, un reconocido sitio web de cocina, lo ha contratado para agregar una funcionalidad de emisión de informes. 
+// Para ello se cuenta con una secuencia de caracteres que contiene la siguiente información sobre las recetas disponibles en el sitio: Categoria(1 carácter: (C)ames —(E)ntrantes-(M)ariscos-(P)astas-(D)ulces), Tiempo de preparación en minutos (3 caracteres), Nombre de la receta (indeterminado, termina con un -), Ingrediente principal (indeterminado, termina con un #) y Dificultad (1 carácter: (F)ácil-(N)ormal-(D)ificil). Ejemplo: C045escalopes al jerez-lomo#F+DO3Otiramisu de la nona-bizcochos yainilla#N,........+FDS Los datos de cada receta finalizan en un signo ".". Se solicita que realice un algoritmo en pseudocódigo que permita: 
+// 1. Generar una secuencia de salida con todas las recetas "Dulces" cuyo tiempo de preparación sea menor a 30 minutos, incluyendo solamente el nombre de la receta, el ingrediente principal y la dificultad. 
+// 2. Informar la cantidad y porcentaje que representan sobre el total, las recetas difíciles (todas). 
+
 ACCION ElGourmet Es
 	AMBIENTE
 		sec_recetas, sec_salida: secuencia de caracteres
