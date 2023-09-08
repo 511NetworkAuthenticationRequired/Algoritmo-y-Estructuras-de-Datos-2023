@@ -178,8 +178,8 @@ FINACCION
 ### SUBACCIONES ÚTILES
 #### Convertir caracter a entero
 ```js
-Funcion ConvertirCAE([variable]: caracter) Es
-	Segun [variable] Hacer
+Funcion ConvertirCAE(variable: caracter) Es
+	Segun variable Hacer
 		="0": ConvertirCAE:= 0
 		="1": ConvertirCAE:= 1
 		="2": ConvertirCAE:= 2
