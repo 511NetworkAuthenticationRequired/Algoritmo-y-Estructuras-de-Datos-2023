@@ -121,7 +121,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   #### EXCLUYENTE
   ```JS
   Mientras NFDA ([archivo]) y NFDA ([archivo2]) Hacer
-    [proceso común]
+   [proceso común]
   FinMientras
 
   Mientras NFDA ([archivo]) Hacer
@@ -179,26 +179,26 @@ FINACCION
 #### Convertir caracter a entero
 ```js
 Funcion ConvertirCAE([variable]: caracter) Es
-			Segun [variable] Hacer
-				="0": ConvertirCAE:= 0
-				="1": ConvertirCAE:= 1
-				="2": ConvertirCAE:= 2
-				="3": ConvertirCAE:= 3
-				="4": ConvertirCAE:= 4
-				="5": ConvertirCAE:= 5
-				="6": ConvertirCAE:= 6
-				="7": ConvertirCAE:= 7
-				="8": ConvertirCAE:= 8
-				="9": ConvertirCAE:= 9
-			FinSegun
-		FinFuncion
+	Segun [variable] Hacer
+		="0": ConvertirCAE:= 0
+		="1": ConvertirCAE:= 1
+		="2": ConvertirCAE:= 2
+		="3": ConvertirCAE:= 3
+		="4": ConvertirCAE:= 4
+		="5": ConvertirCAE:= 5
+		="6": ConvertirCAE:= 6
+		="7": ConvertirCAE:= 7
+		="8": ConvertirCAE:= 8
+		="9": ConvertirCAE:= 9
+	FinSegun
+FinFuncion
 ```
 #### Avanzar manejado por contador
 ```js
 x: entero
 Procedimiento AvanzarN Es
-			Para (i:=1 hasta x) Hacer
-				Avanzar(secuencia, ventana)
-			FinPara
-		FinProcedimiento
+	Para (i:=1 hasta x) Hacer
+		Avanzar(secuencia, ventana)
+	FinPara
+FinProcedimiento
 ```
