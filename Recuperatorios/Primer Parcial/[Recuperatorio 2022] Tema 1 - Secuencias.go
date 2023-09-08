@@ -2,7 +2,7 @@ ACCION CentroBioquimicoChaco ES
 	AMBIENTE
 		// SECUENCIAS
 		sec_analisis, sec_salida: secuencia de caracteres
-		ven_analisis, sec_salida: caracter
+		ven_analisis: caracter
 		// CONSTANTES Y VARIABLES
 		x: entero
 		porc_A, tot_A, tot_E, tot_I, total: entero
