@@ -18,12 +18,19 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ### GENERAL
 
   #### CONDICIONALES
+  ##### SI & CONTRARIO
   ```js
   Si (condición) Entonces
     [proceso]
   Contrario/Sino
     [proceso]
   FinSi
+  ```
+  ##### SEGUN
+  ```js
+  Segun [variable] Entonces
+    [proceso]
+  FinSegun
   ```
   
   #### ITERACIONES
