@@ -3,6 +3,32 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 
 ## SINTAXIS
 
+### OPERADORES
+```yaml
+|----------|------------------------------------|-------------|
+| Operador | Operación                          | Tipo        |
+|----------|------------------------------------|-------------|
+| +        | Suma                               | Aritmético  |
+| -        | Resta                              | Aritmético  |
+| *        | Multiplicación                     | Aritmético  |
+| /        | División Real                      | Aritmético  |
+| DIV      | División Entera                    | Aritmético  |
+| MOD      | Módulo o Resto de la División      | Aritmético  |
+| ^ o **   | Exponenciación                     | Aritmético  |
+| ABSO     | Valor Absoluto                     | Aritmético  |
+| TRUNC    | Truncado (Parte Entera)            | Aritmético  |
+| REDOND   | Redondeo                           | Aritmético  |
+| ==       | Igual a                            | Relacional  |
+| <>       | No Igual a                         | Relacional  |
+| >        | Mayor que                          | Relacional  |
+| >=       | Mayor o Igual que                  | Relacional  |
+| <        | Menor que                          | Relacional  |
+| <=       | Menor o Igual que                  | Relacional  |
+| -        | Negación (No)                      | Lógico      |
+| ^        | Conjunción (Y)                     | Lógico      |
+| ˅        | Disyunción (O)                     | Lógico      |
+|----------|------------------------------------|-------------|
+```
 ### ESTRUCTURAS DE DATOS
  #### DATOS SIMPLES
  Es importante conocer los siguientes tipos de datos simples con sus respectivos ejemplos:
@@ -12,7 +38,9 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  - **Entero/N**: ```1, 7, 22, 127```
  - **Booleano/Lógico**:``` V/F, S/N, 0/1```
  - **Rango/Rankeado**: ```([Valor númerico]...[Valor númerico])``` --> ```v:= (1..10) // Toma valores del 1 al 10```
+   
  **IMPORTANTE**: 1 <> "1", el primero es un entero, el segundo un caracter/alfanumerico.
+ 
  #### VARIABLES
  ```js
  [Nombre de la variable]: [Tipo de dato]
@@ -60,9 +88,9 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```js
   [Nombre del vector]:= arreglo de [Valor de Dato....Valor de Dato] de [Tipo de dato]
   // Acesso al elemento
-  [Nombre del vector][Número del índice] --> Ejemplo: vector[1]
+  [Nombre del vector][Número del índice] // Ejemplo: vector[1]
   // Asignación de valores
-	[Nombre del vector]:= 
+	[Nombre del vector]:= [Valor del dato] // Ejemplo: vector[1]:= 7
   
   ```
 
