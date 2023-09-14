@@ -4,16 +4,19 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ## SINTAXIS
 
 ### ESTRUCTURAS DE DATOS
-  #### CONSTANTES
-	[Nombre de la constante]:= [Valor alfanumerico]
-	[Nombre de la constante]:= [Valor entero
-#### VARIABLES
-  [Nombre de la variable]: [Tipo de dato]
-	
-  #### CONJUNTOS
-  ```js
-  [Nombre del conjunto]:= {[Tipo de dato], ..., [Tipo de dato]}
+ #### VARIABLES
+ ```js
+ [Nombre de la variable]: [Tipo de dato]
   ```
+ #### CONSTANTES
+ ```js
+ [Nombre de la constante]:= [valor del tipo de dato]
+ ```
+### CONJUNTOS
+```js
+[Nombre del conjunto]:= {[Tipo de dato], ..., [Tipo de dato]}
+```
+	
   #### SECUENCIAS
   ```js
   [Nombre de la secuencia]: secuencia de [Tipo de dato]
