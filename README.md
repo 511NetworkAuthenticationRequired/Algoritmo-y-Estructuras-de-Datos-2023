@@ -3,17 +3,52 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 
 ## SINTAXIS
 
-### VARIABLES, CONSTANTES Y CONJUNTOS
-```js
-// VARIABLES
-[Nombre de la variable]: entero
-[Nombre de la variable]: alfanumerico
-// CONSTANTES
-[Nombre de la constante]:= [alfanumerico]
-[Nombre de la constante]:= [entero]
-// CONJUNTOS
-[Nombre del conjunto]:= {[alfanumerico], [entero]}
-```
+### ESTRUCTURAS DE DATOS
+  #### CONSTANTES
+	[Nombre de la constante]:= [Valor alfanumerico]
+	[Nombre de la constante]:= [Valor entero
+#### VARIABLES
+  [Nombre de la variable]: [Tipo de dato]
+	
+  #### CONJUNTOS
+  ```js
+  [Nombre del conjunto]:= {[Tipo de dato], ..., [Tipo de dato]}
+  ```
+  #### SECUENCIAS
+  ```js
+  [Nombre de la secuencia]: secuencia de [Tipo de dato]
+  [Nombre de la ventana]: [Tipo de dato]
+
+  Crear([Nombre de la secuencia])
+  Abrir([Nombre de la secuencia])
+  Cerrar([Nombre de la secuencia])
+  Avanzar([Nombre de la secuencia], [Nombre de la ventana])
+  Grabar([Nombre de la secuencia], [Nombre de la ventana])
+  ```
+  #### REGISTROS
+  ```js
+  [Nombre del registro] = registro
+    [Nombre de la clave] = registro
+      [Claves]
+    FinRegistro
+    [Campos]
+  FinRegistro
+
+  // Los campos y las claves van a compañadas de su tipo de dato (alfanumerico, numerico, etc) y de la cantidad, ejemplo: Clave: AN(10) --> "Hello7world".
+  ```
+  #### ARCHIVOS 
+  ```js
+  [Nombre del archivo]: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
+  [Nombre del registro]: [Nombre del registro]
+
+  Abrir([Nombre del archivo])
+  Cerrar([Nombre del archivo])
+  Leer([Nombre del archivo], [Nombre del registro])
+  ```
+  #### ARREGLOS
+  ```js
+
+  ```
 
 ### GENERAL
 
@@ -29,7 +64,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ##### SEGUN
   ```js
   Segun [variable] Entonces
-    [proceso]
+    [Proceso]
   FinSegun
   ```
   
@@ -54,6 +89,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   
   #### SUBACCIONES
+  Nunca usar ninguna de las palabras reservadas.
   ##### FUNCION
   Retorna algo, ejemplo: cálculos matemáticos
   ```js
@@ -66,40 +102,6 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   Procedimiento Nombre ([parámetros]) Es
     [proceso]
   FinProcedimiento
-  ```
-  
-### ESTRUCTURAS DE DATOS
-
-  #### SECUENCIAS
-  ```js
-  [Nombre de la secuencia]: secuencia de [tipo de dato]
-  [Nombre de la ventana]: [tipo de dato]
-
-  Crear([Nombre de la secuencia])
-  Abrir([Nombre de la secuencia])
-  Cerrar([Nombre de la secuencia])
-  Avanzar([Nombre de la secuencia], [Nombre de la ventana])
-  Grabar([Nombre de la secuencia], [Nombre de la ventana])
-  ```
-  #### REGISTROS
-  ```js
-  [Nombre del registro] = registro
-    [Nombre de la clave] = registro
-      [claves]
-    FinRegistro
-    [campos]
-  FinRegistro
-
-  // Los campos y las claves van a compañadas de su tipo de dato (alfanumerico, numerico, booleano o conjunto) y de la cantidad, ejemplo: Clave: AN(2) --> "H1".
-  ```
-  #### ARCHIVOS 
-  ```js
-  [Nombre del archivo]: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
-  [Nombre del reg]: [Nombre del registro]
-
-  Abrir([Nombre del archivo])
-  Cerrar([Nombre del archivo])
-  Leer([Nombre del archivo], [Nombre del reg])
   ```
 
 ### CORTE DE CONTROL
@@ -116,7 +118,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   EmitirTotales()
   Finalizar()
   ```
-### MEZCLA
+### MEZCLA/APAREO
 
   #### CICLOS DE APAREO
   ##### INCLUYENTE
@@ -181,6 +183,7 @@ FINACCION
   ```
 #### ACTUALIZACIÓN
   ```js
+
   ```
 ### SUBACCIONES ÚTILES
 #### Convertir caracter a entero
