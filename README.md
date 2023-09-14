@@ -4,6 +4,15 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ## SINTAXIS
 
 ### ESTRUCTURAS DE DATOS
+ #### DATOS SIMPLES
+ Es importante conocer los siguientes tipos de datos simples con sus respectivos ejemplos:
+ 
+ - **Caracter**: ```"h", "1", " ", "&"```
+ - **Alfanumerico/AN**: ```"Hola", "  ", "122", "!#"```
+ - **Entero/N**: ```1, 7, 22, 127```
+ - **Booleano/Lógico**:``` V/F, S/N, 0/1```
+ - **Rango/Rankeado**: ```([Valor númerico]...[Valor númerico])``` --> ```v:= (1..10) // Toma valores del 1 al 10```
+ **IMPORTANTE**: 1 <> "1", el primero es un entero, el segundo un caracter/alfanumerico.
  #### VARIABLES
  ```js
  [Nombre de la variable]: [Tipo de dato]
@@ -14,9 +23,8 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  ```
  #### CONJUNTOS
  ```js
- [Nombre del conjunto]:= {[Tipo de dato], ..., [Tipo de dato]}
+ [Nombre del conjunto]:= {[Valor de dato], ..., [Valor de dato]}
  ```
-	
   #### SECUENCIAS
   ```js
   [Nombre de la secuencia]: secuencia de [Tipo de dato]
@@ -50,7 +58,12 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### ARREGLOS
   ```js
-	[Nombre del vector]:= arreglo de [Valores de los datos] de [Tipo de dato]
+  [Nombre del vector]:= arreglo de [Valor de Dato....Valor de Dato] de [Tipo de dato]
+  // Acesso al elemento
+  [Nombre del vector][Número del índice] --> Ejemplo: vector[1]
+  // Asignación de valores
+	[Nombre del vector]:= 
+  
   ```
 
 ### GENERAL
@@ -86,15 +99,14 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   ##### MANEJADO POR CONTADOR
   ```js
-  Para i:=x hasta y Hacer // "x" suele ser 1, "y" hace referencia al valor maximo de iteraciones
+  Para i:=x hasta y Hacer // "x" suele ser 1, "y" hace referencia al valor maximo de iteraciones.
     [proceso]
   FinPara
   ```
   
   #### SUBACCIONES
-  Nunca usar ninguna de las palabras reservadas.
   ##### FUNCION
-  Retorna algo, ejemplo: cálculos matemáticos
+  Retorna algo, ejemplo: cálculos matemáticos.
   ```js
   Funcion Nombre ([Nombre del dato]: [Tipo de dato]): [Dato a devolver]
     [proceso]
@@ -106,12 +118,13 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
     [proceso]
   FinProcedimiento
   ```
-
+ **IMPORTANTE:** Nunca usar ninguna de las palabras reservadas.
+ 
 ### CORTE DE CONTROL
 #### ESQUELETO
   ```js
   Inicializar()
-  Mientras NFDA([archivo]) Hacer
+  Mientras NFDA ([archivo]) Hacer // NFDA significa "No fin de archivo".
     TratarCorte()
     TratarRegistro()
     LeerRegistro()
@@ -121,6 +134,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   EmitirTotales()
   Finalizar()
   ```
+**IMPORTANTE:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#constantes).
 ### MEZCLA/APAREO
 
   #### CICLOS DE APAREO
@@ -205,7 +219,7 @@ Funcion ConvertirCAE(variable: caracter) Es
 		="9": ConvertirCAE:= 9
 	FinSegun
 FinFuncion
-// Algunos la llaman Convertir_A_Caracter(), y según el enunciado inclusive no es preciso realizar el proceso (uso directo).
+// Algunos la llaman Convertir_A_Caracter(), y según el enunciado inclusive no es preciso crearla y se la puede usar directamente en el proceso.
 ```
 #### Avanzar manejado por contador
 ```js
@@ -217,7 +231,7 @@ Procedimiento AvanzarN Es
 FinProcedimiento
 ```
 #### Contadores a 0
-Subaccion que pone todos los contadores a 0. No se requiere crear la subaccion (su proceso) y se la puede usar directamente.
+Subaccion que pone todos los contadores a 0. No se requiere crear la subaccion y se la puede usar directamente en el proceso.
 ```js
 Contador_A_Cero()
 ```
