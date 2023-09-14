@@ -20,7 +20,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 | REDOND   | Redondeo                           | Aritmético  |
 |----------|------------------------------------|-------------|
 | ==       | Igual a                            | Relacional  |
-| <>       | No Igual a                         | Relacional  |
+| <>       | Distinto de                        | Relacional  |
 | >        | Mayor que                          | Relacional  |
 | >=       | Mayor o Igual que                  | Relacional  |
 | <        | Menor que                          | Relacional  |
@@ -79,12 +79,21 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### ARCHIVOS 
   ```js
-  [Nombre del archivo]: archivo de [Nombre del registro] ordenado por [Nombre de la clave]
+  [Nombre del archivo]: archivo de [Nombre del registro] ordenado/indexado por [Nombre de la clave]
   [Nombre del registro]: [Nombre del registro]
-
-  Abrir([Nombre del archivo])
-  Cerrar([Nombre del archivo])
-  Leer([Nombre del archivo], [Nombre del registro])
+  ```
+   ##### SECUENCIALES
+   ```js
+    AbrirE/S([Nombre del archivo])
+    Cerrar([Nombre del archivo])
+    Grabar([Nombre del archivo], [Nombre del registro]) // Escribir()
+    Leer([Nombre del archivo], [Nombre del registro])
+  ```
+  ##### INDEXADOS
+  Se puede hacer todo lo anterior, pero ahora también podemos moficar los datos.
+  ```js
+  ReGrabar([Nombre del archivo], [Nombre del registro) // ReEscribir()
+  Borrar([Nombre del archivo], [Nombre del registro)
   ```
   #### ARREGLOS
   ```js
@@ -164,7 +173,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   EmitirTotales()
   Finalizar()
   ```
-**IMPORTANTE:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#constantes).
+**NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#constantes).
 ### MEZCLA/APAREO
 
   #### CICLOS DE APAREO
@@ -253,8 +262,7 @@ FinFuncion
 ```
 #### Avanzar manejado por contador
 ```js
-x: entero
-Procedimiento AvanzarN Es
+Procedimiento AvanzarN (x: entero) Es
 	Para (i:=1 hasta x) Hacer
 		Avanzar(secuencia, ventana)
 	FinPara
