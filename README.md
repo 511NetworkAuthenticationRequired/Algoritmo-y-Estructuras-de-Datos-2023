@@ -10,12 +10,12 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
  #### CONSTANTES
  ```js
- [Nombre de la constante]:= [valor del tipo de dato]
+ [Nombre de la constante]:= [Valor del tipo de dato]
  ```
-### CONJUNTOS
-```js
-[Nombre del conjunto]:= {[Tipo de dato], ..., [Tipo de dato]}
-```
+ #### CONJUNTOS
+ ```js
+ [Nombre del conjunto]:= {[Tipo de dato], ..., [Tipo de dato]}
+ ```
 	
   #### SECUENCIAS
   ```js
@@ -50,7 +50,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### ARREGLOS
   ```js
-
+	[Nombre del vector]:= arreglo de [Valores de los datos] de [Tipo de dato]
   ```
 
 ### GENERAL
@@ -205,6 +205,7 @@ Funcion ConvertirCAE(variable: caracter) Es
 		="9": ConvertirCAE:= 9
 	FinSegun
 FinFuncion
+// Algunos la llaman Convertir_A_Caracter(), y según el enunciado inclusive no es preciso realizar el proceso (uso directo).
 ```
 #### Avanzar manejado por contador
 ```js
@@ -214,4 +215,9 @@ Procedimiento AvanzarN Es
 		Avanzar(secuencia, ventana)
 	FinPara
 FinProcedimiento
+```
+#### Contadores a 0
+Subaccion que pone todos los contadores a 0. No se requiere crear la subaccion (su proceso) y se la puede usar directamente.
+```js
+Contador_A_Cero()
 ```
