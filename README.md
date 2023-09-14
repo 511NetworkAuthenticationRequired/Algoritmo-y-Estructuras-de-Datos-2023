@@ -18,12 +18,14 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 | ABSO     | Valor Absoluto                     | Aritmético  |
 | TRUNC    | Truncado (Parte Entera)            | Aritmético  |
 | REDOND   | Redondeo                           | Aritmético  |
+|----------|------------------------------------|-------------|
 | ==       | Igual a                            | Relacional  |
 | <>       | No Igual a                         | Relacional  |
 | >        | Mayor que                          | Relacional  |
 | >=       | Mayor o Igual que                  | Relacional  |
 | <        | Menor que                          | Relacional  |
 | <=       | Menor o Igual que                  | Relacional  |
+|----------|------------------------------------|-------------|
 | -        | Negación (No)                      | Lógico      |
 | ^        | Conjunción (Y)                     | Lógico      |
 | ˅        | Disyunción (O)                     | Lógico      |
