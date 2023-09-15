@@ -44,6 +44,8 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  #### VARIABLES
  ```js
  [Nombre de la variable]: [Tipo de dato]
+ // Asignación
+ [Nombre de la variable]:= [Valor]
   ```
  #### CONSTANTES
  ```js
@@ -72,6 +74,10 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
     FinRegistro
     [Campos]
   FinRegistro
+
+  // Asignación
+  [Nombre del registro].[Nombre del campo]:= [Valor]
+  [Nombre del registro].[Nombre de la clave].[Nombre del campo]:= [Valor]
 
   // Los campos y las claves van a compañadas de su tipo de dato (alfanumerico, numerico, etc) y de la cantidad, ejemplo: Clave: AN(10) --> "Hello7world".
   ```
