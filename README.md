@@ -33,8 +33,6 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ```
 ### ESTRUCTURAS DE DATOS
  #### DATOS SIMPLES
- Es importante conocer los siguientes tipos de datos simples con sus respectivos ejemplos:
- 
  - **Caracter**: ```"h", "1", " ", "&"```
  - **Alfanumerico/AN**: ```"Hola", "  ", "122", "!#"```
  - **Entero/N**: ```1, 7, 22, 127```
@@ -90,7 +88,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
     Leer([Nombre del archivo], [Nombre del registro])
   ```
   ##### INDEXADOS
-  Se puede hacer todo lo anterior, pero ahora también podemos moficar los datos.
+  A los procedimientos de secuenciales se le agregan:
   ```js
   ReGrabar([Nombre del archivo], [Nombre del registro) // ReEscribir()
   Borrar([Nombre del archivo], [Nombre del registro)
