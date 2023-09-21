@@ -42,12 +42,14 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  **IMPORTANTE**: 1 <> "1", el primero es un entero, el segundo un caracter/alfanumerico.
  
  #### VARIABLES
+ Se le puede asignar nuevos valores.
  ```js
  [Nombre de la variable]: [Tipo de dato]
  // Asignación
  [Nombre de la variable]:= [Valor]
   ```
  #### CONSTANTES
+ Su valor no cambia en el proceso.
  ```js
  [Nombre de la constante]:= [Valor del tipo de dato]
  ```
@@ -55,9 +57,14 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  ```js
  [Nombre del conjunto]:= {[Valor del dato], ..., [Valor del dato]}
  ```
- #### PUNTEROS
+ #### PUNTEROS & NODOS/CELDAS
+ Hacen referencia a una dirección de memoria.
  ```js
  [Nombre del puntero]: puntero a [Nombre del nodo/celda]
+ [Nombre del nodo/celda] = registro
+  [Dato]: [es la información que se va almacenar]
+  [Prox]: puntero a [Nombre del nodo/celda]
+ FinRegistro
  ```
   #### SECUENCIAS
   ```js
@@ -105,11 +112,16 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### ARREGLOS
   ```js
-  [Nombre del vector]:= arreglo de [Valor de Dato....Valor de Dato] de [Tipo de dato]
+  [Nombre del vector]:= arreglo de [Valor del dato....Valor del dato] de [Tipo de dato]
   // Acesso al elemento
   [Nombre del vector][[Número del índice]] // Ejemplo: vector[1]
   // Asignación de valores
   [Nombre del vector][[Número del índice]]:= [Valor del dato] // Ejemplo: vector[1]:= 7
+  ```
+  #### MATRICES
+  Son arreglos bidimensionales; es decir, poseen dos subíndices (fila y columna).
+  ```js
+  [Nombre de la matriz]:= arreglo de [Valor del dato....Valor del dato, Valor del dato....Valor del dato] de [Tipo de dato]
   ```
 
 ### GENERAL
