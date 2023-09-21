@@ -126,6 +126,19 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```js
   [Nombre de la matriz]:= arreglo de [Valor del dato....Valor del dato, Valor del dato....Valor del dato] de [Tipo de dato]
   ```
+  LISTAS
+  SIMPLEMENTE ENLAZADAS
+  ```js
+  
+  ```
+  DOBLEMENTE ENLAZADAS
+  ```js
+  
+  ```
+  CIRCULARES
+  ```js
+  
+  ```
 
 ### GENERAL
 
@@ -164,7 +177,33 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
     [proceso]
   FinPara
   ```
-  
+  #### METODOS DE BUSQUEDA
+  ##### LINEAL
+  ```js
+ 
+  ```
+  ##### LINEAL CON CENTINELA
+  ```js
+ 
+  ```
+  ##### BINARIA/DICOTOMICA
+  ```js
+ 
+  ```
+  #### METODOS DE ORDENAMIENTO
+  ##### INSERCION DIRECTA
+  ```js
+ 
+  ```
+  ##### SELECCION DIRECTA
+  ```js
+ 
+  ```
+ ##### INTERCAMBIO DIRECTA/BURBUJA
+  ```js
+ 
+  ```
+
   #### SUBACCIONES
   ##### FUNCION
   Retorna algo, ejemplo: cálculos matemáticos.
