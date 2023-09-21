@@ -55,6 +55,10 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  ```js
  [Nombre del conjunto]:= {[Valor de dato], ..., [Valor de dato]}
  ```
+ #### PUNTEROS
+ ```js
+ [Nombre del puntero]: puntero a [Nombre del nodo/celda]
+ ```
   #### SECUENCIAS
   ```js
   [Nombre de la secuencia]: secuencia de [Tipo de dato]
@@ -103,10 +107,9 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```js
   [Nombre del vector]:= arreglo de [Valor de Dato....Valor de Dato] de [Tipo de dato]
   // Acesso al elemento
-  [Nombre del vector][Número del índice] // Ejemplo: vector[1]
+  [Nombre del vector][[Número del índice]] // Ejemplo: vector[1]
   // Asignación de valores
-	[Nombre del vector]:= [Valor del dato] // Ejemplo: vector[1]:= 7
-  
+  [Nombre del vector][[Número del índice]]:= [Valor del dato] // Ejemplo: vector[1]:= 7
   ```
 
 ### GENERAL
