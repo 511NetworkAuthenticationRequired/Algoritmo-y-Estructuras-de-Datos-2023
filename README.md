@@ -53,7 +53,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  ```
  #### CONJUNTOS
  ```js
- [Nombre del conjunto]:= {[Valor de dato], ..., [Valor de dato]}
+ [Nombre del conjunto]:= {[Valor del dato], ..., [Valor del dato]}
  ```
  #### PUNTEROS
  ```js
