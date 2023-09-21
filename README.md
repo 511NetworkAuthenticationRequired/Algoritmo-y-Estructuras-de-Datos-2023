@@ -58,10 +58,12 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  [Nombre del conjunto]:= {[Valor del dato], ..., [Valor del dato]}
  ```
  #### PUNTEROS & NODOS/CELDAS
- Los punteros hacen referencia a una dirección de memoria de una variable dinámica y los nodos son campos a los que solo puede acceder mediante un puntero.
+ Los punteros hacen referencia a una dirección de memoria de una variable dinámica.
  ```js
  [Nombre del puntero]: puntero a [Nombre del nodo/celda]
-
+ ```
+ Los nodos o celdas son campos a los que solo puede acceder mediante un puntero.
+ ```js
  [Nombre del nodo/celda] = registro
   [Dato]: [es la información que se va almacenar]
   [Prox]: puntero a [Nombre del nodo/celda]
