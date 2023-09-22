@@ -19,7 +19,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 | TRUNC    | Truncado (Parte Entera)            | Aritmético  |
 | REDOND   | Redondeo                           | Aritmético  |
 |----------|------------------------------------|-------------|
-| == o =   | Igual a                            | Relacional  |
+| =        | Igual a                            | Relacional  |
 | <>       | Distinto de                        | Relacional  |
 | >        | Mayor que                          | Relacional  |
 | >=       | Mayor o Igual que                  | Relacional  |
