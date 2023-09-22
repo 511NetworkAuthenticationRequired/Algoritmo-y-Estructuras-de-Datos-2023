@@ -324,6 +324,7 @@ FinFuncion
 ```
 #### Avanzar manejado por contador
 ```js
+i: entero
 Procedimiento AvanzarN (x: entero) Es
 	Para (i:=1 hasta x) Hacer
 		Avanzar(secuencia, ventana)
