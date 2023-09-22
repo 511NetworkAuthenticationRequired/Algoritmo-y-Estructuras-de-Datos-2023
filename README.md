@@ -234,7 +234,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   EmitirTotales()
   Finalizar()
   ```
-**NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#convertir-caracter-a-entero).
+**NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/tree/main#corte-de-control-1).
 
 ### MEZCLA/APAREO
 
