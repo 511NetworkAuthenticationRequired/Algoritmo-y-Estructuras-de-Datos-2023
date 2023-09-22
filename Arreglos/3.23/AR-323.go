@@ -15,7 +15,7 @@ ACCION ejercicio 3.23 ES
 			max_temperatura:= 0; min_temperatura:= 0; max_dia:= 0; min_dia:= 0; max_lectura:= 0; min_lectura:= 0
 			cont_temperatura:= 0
 		FinProcedimiento
-		Funcion ObtenerDia(n: entero) Es
+		Funcion ObtenerDia(n: entero):alfanumerico Es
 			Segun (n) Entonces
 				=1: dia:= "L"
 				=2: dia:= "M"
@@ -54,6 +54,6 @@ FinPara
 			promedio:= suma_temperatura DIV 4
 			matriz_promedio[z, y]:= suma_temperatura
 		FinPara
-		Escribir("Temperatura máxima: ", max_temperatura, "el dia: ", max_dia, "en la lectura: ", max_lectura)
-		Escribir("Temperatura mínima: ", min_temperatura, "el dia: ", min_dia, "en la lectura: ", min_lectura)
+		Escribir("Temperatura máxima: ", max_temperatura, "el dia: ", ObtenerDia(max_dia), "en la lectura: ", max_lectura)
+		Escribir("Temperatura mínima: ", min_temperatura, "el dia: ", ObtenerDia(min_dia), "en la lectura: ", min_lectura)
 FINACCION
