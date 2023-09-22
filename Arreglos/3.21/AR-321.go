@@ -4,7 +4,7 @@ ACCION 3.21 ES
 		x; y: entero
 		suma_fila; suma_columna; total: entero
 		// ARREGLOS & MATRICES
-		matriz:= arreglo de [1...6, 1...6] de enteros
+		matriz: arreglo de [1...6, 1...6] de enteros
 		// SUBACCIONES
 		Procedimiento Inicializar() Es
 			suma_fila:= 0; suma_columna:= 0; total:= 0
