@@ -1,0 +1,34 @@
+En un sector de un hospital, donde se encuentran internados 50 pacientes, se toma la temperatura de cada paciente 4 veces al día durante una semana.
+
+|---------|-----|-----|-----|-----|-----|-----|-----|
+| Lectura | Dom | Lun | Mar | Mie | Jue | Vie | Sab |  
+|---------|-----|-----|-----|-----|-----|-----|-----|
+|    1    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+|    2    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+|    3    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+|    4    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+|---------|-----|-----|-----|-----|-----|-----|-----|
+
+Se dispone de un arreglo con la información recopilada de todos los pacientes.
+Construir un algoritmo que:
+ 1. Liste por pantalla las temperaturas máxima y mínima de cada paciente, indicando el día y lectura en la que ocurrieron.
+ 2. Genere un nuevo arreglo que contenga la temperatura promedio por día de cada paciente.
+
+  #     |---------|-----|-----|-----|-----|-----|-----|-----|
+  #     | Lectura |  D  |  L  |  X  |  M  |  J  |  V  |  S  |  
+  #     |---------|-----|-----|-----|-----|-----|-----|-----|
+  #     |    1    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  # 01  |    2    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |    3    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |    4    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |---------|-----|-----|-----|-----|-----|-----|-----|
+  #  .  |    1    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #  .  |    2    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #  .  |    3    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #  .  |    4    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |---------|-----|-----|-----|-----|-----|-----|-----|
+  #     |    1    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  # 50  |    2    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |    3    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |    4    |  XX |  XX |  XX |  XX |  XX |  XX |  XX |
+  #     |---------|-----|-----|-----|-----|-----|-----|-----|
