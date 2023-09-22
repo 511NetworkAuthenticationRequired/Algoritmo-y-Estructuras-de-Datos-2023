@@ -157,7 +157,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
     [Proceso]
   FinSegun
   ```
-  
+  **NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#constantes).
   #### ITERACIONES
   ##### PRE-TEST
   ```js
@@ -234,7 +234,8 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   EmitirTotales()
   Finalizar()
   ```
-**NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#constantes).
+**NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/edit/main/README.md#convertir-caracter-a-entero).
+
 ### MEZCLA/APAREO
 
   #### CICLOS DE APAREO
@@ -306,7 +307,7 @@ FINACCION
 #### Convertir caracter a entero
 ```js
 Funcion ConvertirCAE(variable: caracter) Es
-	Segun variable Hacer
+	Segun (variable) Hacer
 		="0": ConvertirCAE:= 0
 		="1": ConvertirCAE:= 1
 		="2": ConvertirCAE:= 2
