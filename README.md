@@ -115,7 +115,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### ARREGLOS
   ```js
-  [Nombre del vector]:= arreglo de [Valor del dato....Valor del dato] de [Tipo de dato]
+  [Nombre del vector]: arreglo de [Valor del dato....Valor del dato] de [Tipo de dato]
   // Acesso al elemento
   [Nombre del vector][[Número del índice]] // Ejemplo: vector[1]
   // Asignación de valores
