@@ -40,7 +40,12 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  - **Rango/Rankeado**: ```([Valor númerico]...[Valor númerico])``` --> ```v:= (1..10) // Toma valores del 1 al 10```
    
  **IMPORTANTE**: 1 <> "1", el primero es un entero, el segundo un caracter/alfanumerico.
- 
+
+#### CONSTANTES
+ Su valor no cambia en el proceso.
+ ```js
+ [Nombre de la constante]:= [Valor del tipo de dato]
+ ```
  #### VARIABLES
  Se le puede asignar nuevos valores.
  ```js
@@ -48,11 +53,6 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  // Asignación
  [Nombre de la variable]:= [Valor]
   ```
- #### CONSTANTES
- Su valor no cambia en el proceso.
- ```js
- [Nombre de la constante]:= [Valor del tipo de dato]
- ```
  #### CONJUNTOS
  ```js
  [Nombre del conjunto]:= {[Valor del dato], ..., [Valor del dato]}
