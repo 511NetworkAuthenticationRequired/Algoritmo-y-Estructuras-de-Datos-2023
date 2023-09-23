@@ -230,7 +230,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
     LeerRegistro()
   FinMientras
   EmitirTotales()
-  Corte3()
+  CorteMayorNivel()
   EmitirTotales()
   Finalizar()
   ```
