@@ -97,7 +97,9 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   ```
   #### ARCHIVOS 
   ```js
-  [Nombre del archivo]: archivo de [Nombre del registro] ordenado/indexado por [Nombre de la clave]
+  [Nombre del archivo]: archivo de [Nombre del registro] ordenado/indexado por [Nombre de la clave] // Si esta 	 
+  ordenado o indexado por alguna clave
+  [Nombre del archivo]: archivo de [Nombre del registro]  // Sino posee campo clave
   [Nombre del registro]: [Nombre del registro]
   ```
    ##### SECUENCIALES
