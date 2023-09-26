@@ -122,7 +122,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   [Nombre del vector][[Número del índice]]:= [Valor del dato] // Ejemplo: vector[1]:= 7
   ```
   #### MATRICES
-  Son arreglos bidimensionales; es decir, poseen dos subíndices (fila y columna).
+  Son arreglos bidimensionales o de mayor dimensión; es decir, poseen dos subíndices o más (fila y columna, etc).
   ```js
   [Nombre de la matriz]:= arreglo de [Valor del dato....Valor del dato, Valor del dato....Valor del dato] de [Tipo de dato]
   ```
