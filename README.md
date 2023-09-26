@@ -237,7 +237,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 **NOTA:** Revisar también este [ejemplo](https://github.com/511NetworkAuthenticationRequired/Algoritmo-y-Estructuras-de-Datos-2023/tree/main#corte-de-control-1).
 
 ### MEZCLA/APAREO
-
+  
   #### CICLOS DE APAREO
   ##### INCLUYENTE
   ```JS
@@ -307,7 +307,6 @@ FINACCION
 #### Lectura de archivos en actualización
 #### 
 ```js
-FinProcedimiento
 Procedimiento Leer[Movimiento/Maestro]() Es
 	Leer(archivo, registro)
 	Si FDA(archivo) Entonces
