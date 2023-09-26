@@ -304,6 +304,17 @@ FINACCION
 
   ```
 ### SUBACCIONES ÚTILES
+#### Lectura de archivos en actualización
+#### 
+```js
+FinProcedimiento
+Procedimiento Leer[Movimiento/Maestro]() Es
+	Leer(archivo, registro)
+	Si FDA(archivo) Entonces
+		registro.clave:= HV
+	FinSi
+FinProcedimiento
+```
 #### Convertir caracter a entero
 ```js
 Funcion ConvertirCAE(variable: caracter) Es
