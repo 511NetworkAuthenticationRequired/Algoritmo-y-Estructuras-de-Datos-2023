@@ -31,8 +31,8 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 | ˅        | Disyunción (O)                     | Lógico      |
 |----------|------------------------------------|-------------|
 ```
-### ESTRUCTURAS DE DATOS
- #### DATOS SIMPLES
+
+### DATOS SIMPLES
  - **Caracter**: ```"h", "1", " ", "&"```
  - **Alfanumerico/AN**: ```"hola", "  ", "122", "!#"```, "Es todo un tema."
  - **Entero/N**: ```1, 7, 22, 127```
@@ -70,6 +70,7 @@ nformación que se va almacenar]
   [Prox]: puntero a [Nombre del nodo/celda]
  FinRegistro
  ```
+### ESTRUCTURAS DE DATOS
   #### SECUENCIAS
   ```js
   [Nombre de la secuencia]: secuencia de [Tipo de dato]
