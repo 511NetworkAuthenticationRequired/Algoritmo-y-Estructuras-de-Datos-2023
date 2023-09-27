@@ -34,7 +34,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 ### ESTRUCTURAS DE DATOS
  #### DATOS SIMPLES
  - **Caracter**: ```"h", "1", " ", "&"```
- - **Alfanumerico/AN**: ```"Hola", "  ", "122", "!#"```
+ - **Alfanumerico/AN**: ```"hola", "  ", "122", "!#"```, "Es todo un tema."
  - **Entero/N**: ```1, 7, 22, 127```
  - **Booleano/Lógico**:``` V/F, S/N, 0/1```
  - **Rango/Rankeado**: ```([Valor númerico]...[Valor númerico])``` --> ```v:= (1..10) // Toma valores del 1 al 10```
