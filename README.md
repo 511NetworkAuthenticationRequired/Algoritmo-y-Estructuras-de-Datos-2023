@@ -106,6 +106,8 @@ nformación que se va almacenar]
    ##### SECUENCIALES
    ```js
     AbrirE/S([Nombre del archivo])
+    AbrirE/([Nombre del archivo])
+    AbrirS/([Nombre del archivo])
     Cerrar([Nombre del archivo])
     Grabar([Nombre del archivo], [Nombre del registro]) // Escribir()
     Leer([Nombre del archivo], [Nombre del registro])
