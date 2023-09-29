@@ -119,6 +119,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   Borrar([Nombre del archivo], [Nombre del registro)
   ```
   #### ARREGLOS
+Los índices generalmente reciben los nombres de "i", "j" y "k". Yo los llamo "x", "y" y "z" para más comodida.
   ```js
   [Nombre del vector]: arreglo de [Valor del dato....Valor del dato] de [Tipo de dato]
   // Acesso al elemento
@@ -312,7 +313,7 @@ FINACCION
 #### Lectura de archivos en actualización
 #### 
 ```js
-Procedimiento Leer[Movimiento/Maestro]() Es
+Procedimiento Leer[Maestro/Movimiento]() Es
 	Leer(archivo, registro)
 	Si FDA(archivo) Entonces
 		registro.clave:= HV
@@ -335,7 +336,6 @@ Funcion ConvertirCAE(variable: caracter) Es
 		="9": ConvertirCAE:= 9
 	FinSegun
 FinFuncion
-// Algunos la llaman Convertir_A_Caracter(), y según el enunciado inclusive no es preciso crearla y se la puede usar directamente en el proceso.
 ```
 #### Avanzar manejado por contador
 ```js
@@ -347,7 +347,11 @@ Procedimiento AvanzarN (x: entero) Es
 FinProcedimiento
 ```
 #### Contadores a 0
-Subaccion que pone todos los contadores a 0. No se requiere crear la subaccion y se la puede usar directamente en el proceso.
 ```js
-Contador_A_Cero()
+Procedimiento InciarContadores() Es
+	[Nombre del contyador]:= 0
+	[Nombre del acumulador]:= 0
+	[x]:=; [y]:= 0; [z]:= 0
+	[i]:=; [j]:= 0; [k]:= 0
+FinProcedimiento
 ```
