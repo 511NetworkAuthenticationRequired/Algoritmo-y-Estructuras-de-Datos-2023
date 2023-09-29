@@ -119,7 +119,7 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
   Borrar([Nombre del archivo], [Nombre del registro)
   ```
   #### ARREGLOS
-Los índices generalmente reciben los nombres de "i", "j" y "k". Yo los llamo "x", "y" y "z" para más comodida.
+Los índices generalmente reciben los nombres de "i", "j" y "k" o bien "x", "y" y "z", aunque al ser variables pueden tomar el nombre que se le quiera dar.
   ```js
   [Nombre del vector]: arreglo de [Valor del dato....Valor del dato] de [Tipo de dato]
   // Acesso al elemento
