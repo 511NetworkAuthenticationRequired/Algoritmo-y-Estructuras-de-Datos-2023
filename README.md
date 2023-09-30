@@ -51,11 +51,11 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  ```js
  [Nombre de la variable]: [Tipo de dato]
  // Asignación
- [Nombre de la variable]:= [Valor]
+ [Nombre de la variable]= [Valor]
   ```
  #### CONJUNTOS
  ```js
- [Nombre del conjunto]:= {[Valor del dato], ..., [Valor del dato]}
+ [Nombre del conjunto]= {[Valor del dato], ..., [Valor del dato]}
  ```
  #### PUNTEROS & NODOS/CELDAS
  Los punteros hacen referencia a una dirección de memoria de una variable dinámica.
