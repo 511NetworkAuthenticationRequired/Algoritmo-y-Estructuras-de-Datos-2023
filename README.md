@@ -247,7 +247,7 @@ Los índices generalmente reciben los nombres de "i", "j" y "k" o bien "x", "y" 
   #### CICLOS DE APAREO
   ##### INCLUYENTE
   ```JS
-  Mientras ([clave1] <> HV) o ([clave2] <> HV) o ... ([claveN] <> HV) Hacer // HV hace referencia a "High Value".
+  Mientras ([archivo1.clave] <> HV) o ([archivo2.clave] <> HV) o ... ([claveN] <> HV) Hacer // HV hace referencia a "High Value".
     [proceso]
   FinMientras
   ```
