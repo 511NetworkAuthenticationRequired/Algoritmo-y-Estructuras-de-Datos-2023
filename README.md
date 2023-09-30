@@ -1,4 +1,4 @@
-# ALGORITMO Y ESTRUCTURAS DE DATOS 2023
+# ALGORITMO Y ESTRUCTURAS DE DATOS (2023)
 Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 
 ## SINTAXIS
