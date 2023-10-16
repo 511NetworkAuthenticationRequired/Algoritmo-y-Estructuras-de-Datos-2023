@@ -323,35 +323,35 @@ FinProcedimiento
 #### Convertir caracter a entero
 ```js
 Funcion ConvertirCAE(variable: caracter) Es
-	Segun (variable) Hacer
-		="0": ConvertirCAE:= 0
-		="1": ConvertirCAE:= 1
-		="2": ConvertirCAE:= 2
-		="3": ConvertirCAE:= 3
-		="4": ConvertirCAE:= 4
-		="5": ConvertirCAE:= 5
-		="6": ConvertirCAE:= 6
-		="7": ConvertirCAE:= 7
-		="8": ConvertirCAE:= 8
-		="9": ConvertirCAE:= 9
-	FinSegun
+ Segun (variable) Hacer
+  ="0": ConvertirCAE:= 0
+  ="1": ConvertirCAE:= 1
+  ="2": ConvertirCAE:= 2
+  ="3": ConvertirCAE:= 3
+  ="4": ConvertirCAE:= 4
+  ="5": ConvertirCAE:= 5
+  ="6": ConvertirCAE:= 6
+  ="7": ConvertirCAE:= 7
+  ="8": ConvertirCAE:= 8
+  ="9": ConvertirCAE:= 9
+ FinSegun
 FinFuncion
 ```
 #### Avanzar manejado por contador
 ```js
 i: entero
 Procedimiento AvanzarN (x: entero) Es
-	Para (i:=1 hasta x) Hacer
-		Avanzar(secuencia, ventana)
-	FinPara
+ Para (i:=1 hasta x) Hacer
+  Avanzar(secuencia, ventana)
+ FinPara
 FinProcedimiento
 ```
-#### Contadores a 0
+#### Contadores a 0 (Ejemplo)
 ```js
 Procedimiento InciarContadores() Es
-  [Nombre del contyador]:= 0
-	[Nombre del acumulador]:= 0
-	[x]:=; [y]:= 0; [z]:= 0
-	[i]:=; [j]:= 0; [k]:= 0
+ [Nombre del contyador]:= 0
+ [Nombre del acumulador]:= 0
+ [x]:=; [y]:= 0; [z]:= 0
+ [i]:=; [j]:= 0; [k]:= 0
 FinProcedimiento
 ```
