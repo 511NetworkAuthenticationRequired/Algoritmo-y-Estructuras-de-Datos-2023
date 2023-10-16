@@ -349,7 +349,7 @@ FinProcedimiento
 #### Contadores a 0
 ```js
 Procedimiento InciarContadores() Es
-	[Nombre del contyador]:= 0
+  [Nombre del contyador]:= 0
 	[Nombre del acumulador]:= 0
 	[x]:=; [y]:= 0; [z]:= 0
 	[i]:=; [j]:= 0; [k]:= 0
