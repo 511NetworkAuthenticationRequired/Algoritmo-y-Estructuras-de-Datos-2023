@@ -1,0 +1,25 @@
+|----------|------------------------------------|-------------|
+| Operador | Operación                          | Tipo        |
+|----------|------------------------------------|-------------|
+| +        | Suma                               | Aritmético  |
+| -        | Resta                              | Aritmético  |
+| *        | Multiplicación                     | Aritmético  |
+| /        | División Real                      | Aritmético  |
+| DIV      | División Entera                    | Aritmético  |
+| MOD      | Módulo o Resto de la División      | Aritmético  |
+| ^ o **   | Exponenciación                     | Aritmético  |
+| ABSO     | Valor Absoluto                     | Aritmético  |
+| TRUNC    | Truncado (Parte Entera)            | Aritmético  |
+| REDOND   | Redondeo                           | Aritmético  |
+|----------|------------------------------------|-------------|
+| =        | Igual a                            | Relacional  |
+| <>       | Distinto de                        | Relacional  |
+| >        | Mayor que                          | Relacional  |
+| >=       | Mayor o Igual que                  | Relacional  |
+| <        | Menor que                          | Relacional  |
+| <=       | Menor o Igual que                  | Relacional  |
+|----------|------------------------------------|-------------|
+| -        | Negación (No)                      | Lógico      |
+| ^        | Conjunción (Y)                     | Lógico      |
+| ˅        | Disyunción (O)                     | Lógico      |
+|----------|------------------------------------|-------------|
