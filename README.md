@@ -44,14 +44,16 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
 #### CONSTANTES
  Su valor no cambia en el proceso.
  ```js
- [Nombre de la constante]= [Valor del tipo de dato]
+nombre_constante = Tipo de dato
  ```
  #### VARIABLES
  Se le puede asignar nuevos valores.
  ```js
- [Nombre de la variable]: [Tipo de dato]
+ nombre_variable: Tipo de dato
+ ```
+ ```js
  // Asignación
- [Nombre de la variable]:= [Valor]
+ nombre_variable:= 
   ```
  #### CONJUNTOS
  ```js
