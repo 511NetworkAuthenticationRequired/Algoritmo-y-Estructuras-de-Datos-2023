@@ -39,25 +39,34 @@ Ejercicios en: [Guía de Trabajos Prácticos](https://aed-frre.github.io).
  - **Booleano/Lógico**:``` V/F, S/N, 0/1```
  - **Rango/Rankeado**: ```([Valor númerico]...[Valor númerico])``` --> ```v:= (1..10) // Toma valores del 1 al 10```
    
- **IMPORTANTE**: 1 <> "1", el primero es un entero, el segundo un caracter/alfanumerico.
+ **IMPORTANTE:** 1 <> "1", el primero es un entero, el segundo un caracter/alfanumerico.
 
 #### CONSTANTES
  Su valor no cambia en el proceso.
  ```js
-nombre_constante = Tipo de dato
+	nombre_constante = valor
+
+  // Ejemplo: pi = 3,14159265359
  ```
  #### VARIABLES
  Se le puede asignar nuevos valores.
  ```js
- nombre_variable: Tipo de dato
+  nombre_variable: dato
  ```
+ La asignación se especifica colocando ":=".
  ```js
- // Asignación
- nombre_variable:= 
+  nombre_variable:= valor
+
+	// Ejemplo:
+		nombre_variable: entero; nombre_variable:= 1
+		nombre_variable₂: alfanumerico; nombre_variable₂:= "Hola mundo"
   ```
  #### CONJUNTOS
  ```js
- [Nombre del conjunto]= {[Valor del dato], ..., [Valor del dato]}
+  nombre_conjunto: {valor₁, valor₂, valor₃, ..., valorᵢ} 
+ ```
+ ```js
+	nombre_conjunto = {valor₁, valor₂, valor₃, ..., valorᵢ}
  ```
  #### PUNTEROS & NODOS/CELDAS
  Los punteros hacen referencia a una dirección de memoria de una variable dinámica.
@@ -66,22 +75,22 @@ nombre_constante = Tipo de dato
  ```
  Los nodos o celdas son campos a los que solo puede acceder mediante un puntero.
  ```js
- [Nombre del nodo/celda] = registro
-  [Dato]: [Información que se va almacenar]
-  [Prox]: puntero a [Nombre del nodo/celda]
+ nombre_nodo = registro
+   Dato: [Información que se va almacenar]
+   Prox: puntero a nombre_nodo
  FinRegistro
  ```
 ### ESTRUCTURAS DE DATOS
   #### SECUENCIAS
   ```js
-  [Nombre de la secuencia]: secuencia de [Tipo de dato]
-  [Nombre de la ventana]: [Tipo de dato]
+  nombre_secuencia: secuencia de [Tipo de dato]
+  nombre_ventana: [Tipo de dato]
 
-  Crear([Nombre de la secuencia])
-  Abrir([Nombre de la secuencia])
-  Cerrar([Nombre de la secuencia])
-  Avanzar([Nombre de la secuencia], [Nombre de la ventana])
-  Grabar([Nombre de la secuencia], [Nombre de la ventana])
+  Crear(nombre_secuencia)
+  Abrir(nombre_secuencia)
+  Cerrar(nombre_secuencia)
+  Avanzar(nombre_secuencia, nombre_ventana)
+  Grabar(nombre_secuencia, nombre_ventana)
   ```
   #### REGISTROS
   ```js
