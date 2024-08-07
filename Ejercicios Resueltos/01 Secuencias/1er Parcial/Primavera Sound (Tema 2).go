@@ -69,7 +69,7 @@
 						AVZ(sec_compras, ven_compras)
 						GRABAR(sec_salida, "#")
 					CONTRARIO // Si fue a las/despues de las 10am
-						PARA (i: 1 hasta 11) // Avanzo todo ese usuario
+						PARA (i: 1 hasta 11) HACER// Avanzo todo ese usuario
 							AVZ(sec_fila, ven_fila)
 						FP
 						MIENTRAS (sec_compras <> "?") HACER
